@@ -53,7 +53,7 @@ public class AppTest
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("file:///C:/Users/Alba/OneDrive/Documentos/1Mantenimiento%20y%20pruebas/Laboratorios/Laboratorio5/SegurosAuto/app/index.html");
+        driver.get("file:///C:/Users/Yinavis%20Segovia/OneDrive%20-%20Universidad%20Tecnol%C3%B3gica%20de%20Panam%C3%A1/AAA%20II%20SEMESTRE%202021/Mantenimiento%20y%20Pruebas%20de%20Software/Actividades%20del%20Curso/Laboratorio%205/SegurosAuto-master/app/index.html");
     }
     @Test
     @UseDataProvider("proveedorDatos")
